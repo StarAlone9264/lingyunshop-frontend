@@ -1,0 +1,457 @@
+<template>
+  <div class="hold-transition skin-green sidebar-mini">
+    <div class="wrapper">
+      <!-- 页面头部 -->
+      <header class="main-header">
+        <!-- Logo -->
+        <router-link class="logo" to="/">
+          <!-- mini logo for sidebar mini 50x50 pixels -->
+          <span class="logo-mini"><b>优优购</b></span>
+          <!-- logo for regular state and mobile devices -->
+          <span class="logo-lg"><b>优优购-后台管理系统</b></span>
+        </router-link>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top" id="navbar">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              <!-- Messages: style can be found in dropdown.less-->
+              <li class="dropdown messages-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="fa fa-envelope-o"></i>
+                  <span class="label label-success">4</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="header">你有4个邮件</li>
+                  <li>
+                    <!-- inner menu: contains the actual data -->
+                    <ul class="menu">
+                      <li>
+                        <!-- start message -->
+                        <a href="#">
+                          <div class="pull-left">
+                            <img src="@/assets/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                          </div>
+                          <h4>
+                            系统消息
+                            <small><i class="fa fa-clock-o"></i> 5 分钟前</small>
+                          </h4>
+                          <p>欢迎登录系统?</p>
+                        </a>
+                      </li>
+                      <!-- end message -->
+                      <li>
+                        <a href="#">
+                          <div class="pull-left">
+                            <img src="@/assets/img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                          </div>
+                          <h4>
+                            团队消息
+                            <small><i class="fa fa-clock-o"></i> 2 小时前</small>
+                          </h4>
+                          <p>你有新的任务了</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="pull-left">
+                            <img src="@/assets/img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                          </div>
+                          <h4>
+                            Developers
+                            <small><i class="fa fa-clock-o"></i> Today</small>
+                          </h4>
+                          <p>Why not buy a new awesome theme?</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="pull-left">
+                            <img src="@/assets/img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                          </div>
+                          <h4>
+                            Sales Department
+                            <small><i class="fa fa-clock-o"></i> Yesterday</small>
+                          </h4>
+                          <p>Why not buy a new awesome theme?</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="pull-left">
+                            <img src="@/assets/img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                          </div>
+                          <h4>
+                            Reviewers
+                            <small><i class="fa fa-clock-o"></i> 2 days</small>
+                          </h4>
+                          <p>Why not buy a new awesome theme?</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="footer"><a href="#">See All Messages</a></li>
+                </ul>
+              </li>
+              <!-- Notifications: style can be found in dropdown.less -->
+              <li class="dropdown notifications-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="fa fa-bell-o"></i>
+                  <span class="label label-warning">10</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="header">你有10个新消息</li>
+                  <li>
+                    <!-- inner menu: contains the actual data -->
+                    <ul class="menu">
+                      <li>
+                        <a href="#">
+                          <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
+                          page and may cause design problems
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa fa-users text-red"></i> 5 new members joined
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa fa-shopping-cart text-green"></i> 25 sales made
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa fa-user text-red"></i> You changed your username
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="footer"><a href="#">View all</a></li>
+                </ul>
+              </li>
+              <!-- Tasks: style can be found in dropdown.less -->
+              <li class="dropdown tasks-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="fa fa-flag-o"></i>
+                  <span class="label label-danger">9</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="header">你有9个新任务</li>
+                  <li>
+                    <!-- inner menu: contains the actual data -->
+                    <ul class="menu">
+                      <li>
+                        <!-- Task item -->
+                        <a href="#">
+                          <h3>
+                            Design some buttons
+                            <small class="pull-right">20%</small>
+                          </h3>
+                          <div class="progress xs">
+                            <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar"
+                                 aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                              <span class="sr-only">20% Complete</span>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <!-- end task item -->
+                      <li>
+                        <!-- Task item -->
+                        <a href="#">
+                          <h3>
+                            Create a nice theme
+                            <small class="pull-right">40%</small>
+                          </h3>
+                          <div class="progress xs">
+                            <div class="progress-bar progress-bar-green" style="width: 40%" role="progressbar"
+                                 aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                              <span class="sr-only">40% Complete</span>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <!-- end task item -->
+                      <li>
+                        <!-- Task item -->
+                        <a href="#">
+                          <h3>
+                            Some task I need to do
+                            <small class="pull-right">60%</small>
+                          </h3>
+                          <div class="progress xs">
+                            <div class="progress-bar progress-bar-red" style="width: 60%" role="progressbar"
+                                 aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                              <span class="sr-only">60% Complete</span>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <!-- end task item -->
+                      <li>
+                        <!-- Task item -->
+                        <a href="#">
+                          <h3>
+                            Make beautiful transitions
+                            <small class="pull-right">80%</small>
+                          </h3>
+                          <div class="progress xs">
+                            <div class="progress-bar progress-bar-yellow" style="width: 80%" role="progressbar"
+                                 aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                              <span class="sr-only">80% Complete</span>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <!-- end task item -->
+                    </ul>
+                  </li>
+                  <li class="footer">
+                    <a href="#">View all tasks</a>
+                  </li>
+                </ul>
+              </li>
+              <!-- User Account: style can be found in dropdown.less -->
+              <li class="dropdown user user-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <img src="@/assets/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                  <span class="hidden-xs">{{username}}</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <!-- User image -->
+                  <li class="user-header">
+                    <img src="@/assets/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+
+                    <p>
+                      {{username}}
+                      <small>最后登录 11:20AM</small>
+                    </p>
+                  </li>
+
+                  <!-- Menu Footer-->
+                  <li class="user-footer">
+                    <div class="pull-left">
+                      <a href="#" class="btn btn-default btn-flat">修改密码</a>
+                    </div>
+                    <div class="pull-right">
+                      <a href="#" class="btn btn-default btn-flat" @click="loginOut">注销</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- 页面头部 /-->
+
+      <!-- 导航侧栏 -->
+      <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+          <!-- Sidebar user panel -->
+          <div class="user-panel">
+            <div class="pull-left image">
+              <img src="@/assets/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-left info">
+              <p> {{username}}</p>
+              <a href="#"><i class="fa fa-circle text-success"></i> 在线</a>
+            </div>
+          </div>
+
+          <!-- /.search form -->
+
+
+          <!-- sidebar menu: : style can be found in sidebar.less -->
+          <ul class="sidebar-menu">
+            <li class="header">菜单</li>
+            <li id="admin-index"><a href="/"><i class="fa fa-dashboard"></i> <span>首页</span></a></li>
+
+            <!-- 菜单 -->
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-folder"></i>
+                <span>商家管理</span>
+                <span class="pull-right-container">
+				       			<i class="fa fa-angle-left pull-right"></i>
+				   		 	</span>
+              </a>
+              <ul class="treeview-menu">
+
+                <li id="admin-login">
+                  <a href="/seller/review" target="iframe">
+                    <i class="fa fa-circle-o"></i>商家审核
+                  </a>
+                </li>
+                <li id="admin-login">
+                  <a href="/seller/list" target="iframe">
+                    <i class="fa fa-circle-o"></i>商家管理
+                  </a>
+                </li>
+                <li id="admin-login">
+                  <a href="/seller/add" target="iframe">
+                    <i class="fa fa-circle-o"></i>商家入驻
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-folder"></i>
+                <span>商品管理</span>
+                <span class="pull-right-container">
+				       			<i class="fa fa-angle-left pull-right"></i>
+				   		 	</span>
+              </a>
+              <ul class="treeview-menu">
+                <li id="admin-login">
+                  <a href="/commodity/brand" target="iframe">
+                    <i class="fa fa-circle-o"></i>品牌管理
+                  </a>
+                </li>
+                <li id="admin-login">
+                  <a href="/commodity/specification" target="iframe">
+                    <i class="fa fa-circle-o"></i>规格管理
+                  </a>
+                </li>
+                <li id="admin-login">
+                  <a href="/commodity/type_template" target="iframe">
+                    <i class="fa fa-circle-o"></i>模板管理
+                  </a>
+                </li>
+                <li id="admin-login">
+                  <a href="/commodity/item_cat" target="iframe">
+                    <i class="fa fa-circle-o"></i>分类管理
+                  </a>
+                </li>
+                <li id="admin-login">
+                  <a href="goods" target="iframe">
+                    <i class="fa fa-circle-o"></i>商品审核
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-folder"></i>
+                <span>广告管理</span>
+                <span class="pull-right-container">
+				       			<i class="fa fa-angle-left pull-right"></i>
+				   		 	</span>
+              </a>
+              <ul class="treeview-menu">
+
+                <li id="admin-login">
+                  <a href="content_category.html" target="iframe">
+                    <i class="fa fa-circle-o"></i>广告类型管理
+                  </a>
+                </li>
+                <li id="admin-login">
+                  <a href="content.html" target="iframe">
+                    <i class="fa fa-circle-o"></i>广告管理
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <!-- 菜单 /-->
+
+          </ul>
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+      <!-- 导航侧栏 /-->
+
+      <!-- 内容区域 -->
+      <div class="content-wrapper">
+        <iframe width="100%" id="iframe" name="iframe" :height="clientHeight" ref="iframe"
+                frameborder="0" src="/home"></iframe>
+      </div>
+      <!-- 内容区域 /-->
+
+      <!-- 底部导航 -->
+      <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+          <b>Version</b> 1.0.8
+        </div>
+        <strong>Copyright &copy; 2014-2017 <a href="http://www.hopu.com">研究院研发部</a>.</strong> All rights reserved.
+      </footer>
+      <!-- 底部导航 /-->
+    </div>
+  </div>
+</template>
+
+<script>
+
+import {getRequest} from '@/common/request/httputil'
+
+export default {
+  name: "Index",
+  data() {
+    return {
+      clientHeight: 0,
+      username: 'admin'
+    }
+  },
+  mounted() {
+    let navbar = document.getElementById("navbar").offsetHeight;
+    this.clientHeight = document.documentElement.clientHeight-(navbar*2+10);
+    let mapFrame = this.$refs['iframe']
+    if (mapFrame.attachEvent){  //兼容浏览器判断
+      mapFrame.attachEvent("onload", function(){
+        let iframeWin = mapFrame.contentWindow
+        iframeWin.postMessage(this.clientHeight,'*')
+        //data传递的参数   *写成子页面的域名或者是ip
+      })
+    } else {
+      mapFrame.onload = function(){
+        let iframeWin = mapFrame.contentWindow
+        iframeWin.postMessage(this.clientHeight,'*')
+      }
+    }
+    this.username = JSON.parse(window.localStorage.user).user;
+  },
+  methods: {
+    loginOut(){
+      getRequest('/user/loginOut')
+        .then(res => {
+          console.log(res);
+          if (res.status === 200) {
+            console.log('进入');
+            this.$message({
+              message: 'wdwd',
+              type: 'error'
+            });
+            // this.$store.commit('$_setStorage', {user: null})
+            this.$store.commit('$_setLogin', '0')
+            this.$store.commit('$_removeStorage')
+            this.$message({
+              message: '已成功退出',
+              type: 'success'
+            });
+            window.location.reload();
+          }
+        }).catch(err => {
+        console.log(err);
+      });
+    }
+  }
+}
+</script>
+
+<style scoped>
+
+</style>
